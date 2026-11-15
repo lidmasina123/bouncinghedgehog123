@@ -159,8 +159,8 @@ func _physics_process(delta):
 		return
 	elapsed += delta
 	pace = 105.0 + 7.0 * elapsed
-	if pace > 315.0:
-		pace = 315.0
+	if pace > 420.0:
+		pace = 420.0
 	travel += pace * delta
 	hit_flash = hit_flash - delta
 	if hit_flash < 0:
