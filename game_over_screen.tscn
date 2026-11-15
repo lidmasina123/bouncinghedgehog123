@@ -1,0 +1,73 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Texture2D" path="res://art/game-over.png" id="1_art"]
+
+[ext_resource type="Shader" path="res://menu_transparency.gdshader" id="2_transparency"]
+
+[ext_resource type="Script" path="res://stats_panel.gd" id="3_stats"]
+
+[ext_resource type="Texture2D" path="res://art/try-again.png" id="4_retry"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_black_ink"]
+shader = ExtResource("2_transparency")
+shader_parameter/remove_neutral_background = false
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_game_over"]
+atlas = ExtResource("1_art")
+region = Rect2(56, 48, 408, 314)
+filter_clip = true
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_game_over_cutout"]
+shader = ExtResource("2_transparency")
+shader_parameter/remove_neutral_background = false
+shader_parameter/excluded_region = Vector4(0, 0, 0.5078125, 0.22883295)
+
+[node name="GameOverScreen" type="Control"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Content" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -210.0
+offset_top = -240.5
+offset_right = 210.0
+offset_bottom = 240.5
+theme_override_constants/separation = 10
+
+[node name="GameOverArt" type="TextureRect" parent="Content"]
+material = SubResource("ShaderMaterial_game_over_cutout")
+custom_minimum_size = Vector2(420, 270)
+size_flags_horizontal = 4
+layout_mode = 2
+mouse_filter = 2
+texture = SubResource("AtlasTexture_game_over")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="StatsPanel" type="Control" parent="Content"]
+custom_minimum_size = Vector2(210, 118)
+size_flags_horizontal = 4
+layout_mode = 2
+mouse_filter = 2
+script = ExtResource("3_stats")
+
+[node name="Retry" type="TextureButton" parent="Content"]
+material = SubResource("ShaderMaterial_black_ink")
+custom_minimum_size = Vector2(210, 73)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_default_cursor_shape = 2
+tooltip_text = "Try again"
+texture_normal = ExtResource("4_retry")
+ignore_texture_size = true
+stretch_mode = 5
+

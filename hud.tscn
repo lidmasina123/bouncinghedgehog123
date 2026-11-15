@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://lives_speed.gd" id="1"]
+[ext_resource type="Script" path="res://stats_panel.gd" id="2"]
+
+[node name="GameUI" type="CanvasLayer"]
+layer = 1
+
+[node name="LivesAndSpeed" type="Control" parent="."]
+offset_left = 24.0
+offset_top = 15.0
+offset_right = 284.0
+offset_bottom = 55.0
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="StatsPanel" type="Control" parent="."]
+offset_left = 744.0
+offset_top = 12.0
+offset_right = 984.0
+offset_bottom = 146.0
+mouse_filter = 2
+script = ExtResource("2")

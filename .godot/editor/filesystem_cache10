@@ -1,0 +1,59 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1794750113
+apple.gd::GDScript::6279956407819352674::1794737081::0::1::::<>Node2D<><>0<>0<><>::
+apple.tscn::PackedScene::-1::1794737081::0::1::::<><><>0<>0<><>::res://apple.gd<>res://art/apple.png
+background.gd::GDScript::6749914652193325033::1794741279::0::1::::<>Node2D<><>0<>0<><>::
+background.tscn::PackedScene::-1::1794737081::0::1::::<><><>0<>0<><>::res://background.gd<>res://art/unnamed.png<>res://art/trees.png<>res://art/grass.png
+Bounce Run.apple-touch-icon.png::CompressedTexture2D::6998024313796029706::1794747991::1794747535::1::::<><><>0<>0<>c8c06f5584813517d911f0a28592ee0f<>res://.godot/imported/Bounce Run.apple-touch-icon.png-38029ac52a262cb76115619f06765ad0.ctex::
+Bounce Run.icon.png::CompressedTexture2D::6690468168912901456::1794747991::1794748008::1::::<><><>0<>0<>21fdd978ef124720e41cbee23c2f947d<>res://.godot/imported/Bounce Run.icon.png-7f6d7d5e70e84cbb501390f66bce1282.ctex::
+Bounce Run.png::CompressedTexture2D::3318658637662850455::1794747991::1794747535::1::::<><><>0<>0<>8f92f65561ba5809fc00e8b5244f1cfc<>res://.godot/imported/Bounce Run.png-ab68ff560680e4020e6c58f862ed947c.ctex::
+character.gd::GDScript::3586233698235569859::1794678397::0::1::::<>Node2D<><>0<>0<><>::
+character.tscn::PackedScene::-1::1794678397::0::1::::<><><>0<>0<><>::res://character.gd<>res://art/1000085714.png
+cola_can.tscn::PackedScene::3745721112916257274::1794743785::0::1::::<><><>0<>0<><>::uid://coipojpjjjm72::::res://obstacle.gd<>uid://b562ug3l3gx0c::::res://art/cola-can.png
+export_presets.cfg::TextFile::-1::1794747992::0::1::::<><><>0<>0<><>::
+fox.tscn::PackedScene::5351240995850055375::1794743207::0::1::::<><><>0<>0<><>::uid://coipojpjjjm72::::res://obstacle.gd<>uid://dqbnrltu4mbd2::::res://art/1000085712.png
+game.gd::GDScript::4900441677358491667::1794740816::0::1::::<>Node2D<><>0<>0<><>::
+game.tscn::PackedScene::4750739779346140479::1794742139::0::1::::<><><>0<>0<><>::uid://cb22s8t2xinh8::::res://game.gd<>res://background.tscn<>res://character.tscn<>res://fox.tscn<>res://stump.tscn<>res://pond.tscn<>res://apple.tscn<>res://hud.tscn<>res://start_screen.tscn<>res://game_over_screen.tscn<>uid://h8c0db15ydj3::::res://audio/background.wav<>uid://sqqihvikagh7::::res://audio/game-over.wav<>uid://c1lle7xx2uecp::::res://audio/lose-heart.wav<>res://cola_can.tscn<>res://log.tscn<>res://green_can.tscn<>uid://dx87a40bu8p57::::res://audio/life-gain.wav<>res://green_apple.tscn
+game_over_screen.tscn::PackedScene::-1::1794667600::0::1::::<><><>0<>0<><>::res://art/game-over.png<>res://menu_transparency.gdshader<>res://stats_panel.gd<>res://art/try-again.png
+green_apple.tscn::PackedScene::-1::1794740816::0::1::::<><><>0<>0<><>::
+green_can.tscn::PackedScene::1164166012529268339::1794745822::0::1::::<><><>0<>0<><>::uid://coipojpjjjm72::::res://obstacle.gd<>uid://d07n1rw8qxaac::::res://art/green-can.png
+hill_profile.gd::GDScript::5375315251085354147::1794675394::0::1::::<>RefCounted<><>0<>0<><>::
+hud.tscn::PackedScene::-1::1794739788::0::1::::<><><>0<>0<><>::res://lives_speed.gd<>res://stats_panel.gd
+lives_speed.gd::GDScript::1141552722554496054::1794737081::0::1::::<>Control<><>0<>1<><>::
+log.tscn::PackedScene::3612478229322813109::1794743118::0::1::::<><><>0<>0<><>::uid://coipojpjjjm72::::res://obstacle.gd<>uid://3ioed5pcqtk3::::res://art/log.png
+menu_transparency.gdshader::Shader::809518413372248734::1794675394::0::1::::<><><>0<>0<><>::
+obstacle.gd::GDScript::5772936452660831299::1794737081::0::1::::<>Area2D<><>0<>0<><>::
+pond.tscn::PackedScene::-1::1794737081::0::1::::<><><>0<>0<><>::res://obstacle.gd<>res://art/pond.png
+README.md::TextFile::-1::1794749088::0::1::::<><><>0<>0<><>::
+start_screen.tscn::PackedScene::-1::1794737102::0::1::::<><><>0<>0<><>::res://art/start-title.png<>res://art/start-button.png<>res://menu_transparency.gdshader<>res://art/apple-heart-sign.png
+stats_panel.gd::GDScript::8133536247002552954::1794737081::0::1::::<>Control<><>0<>1<><>::
+stump.tscn::PackedScene::1087143033755827967::1794743731::0::1::::<><><>0<>0<><>::uid://coipojpjjjm72::::res://obstacle.gd<>uid://opt5dqknf350::::res://art/stump.png
+::res://art/::1794750070
+1000085712.png::CompressedTexture2D::8285168214500298997::1794660355::1794737808::1::::<><><>0<>0<>a83131b78c7306f91bc99653e2170bcf<>res://.godot/imported/1000085712.png-25baab3ff596a8bdcd4bd000d2638730.ctex::
+1000085714.png::CompressedTexture2D::6824819227455321454::1794660598::1794737809::1::::<><><>0<>0<>711ee72ffc035a0aa6461f26fcb0f214<>res://.godot/imported/1000085714.png-62ab86707772748e0b73e3d89d975eaf.ctex::
+apple-heart-sign.png::CompressedTexture2D::3962946496874684666::1794736898::1794737807::1::::<><><>0<>0<>f27123cbe5fc8311fe25ee678c7e45f2<>res://.godot/imported/apple-heart-sign.png-9e7a8a48cfb594e88148fb6bdb96f72d.ctex::
+apple.png::CompressedTexture2D::4511115402172515669::1794673052::1794737809::1::::<><><>0<>0<>25f3f60cb0a561e1a917906e3c480aeb<>res://.godot/imported/apple.png-ee8cb1fcc390071bfda79f3794dd3896.ctex::
+cola-can.png::CompressedTexture2D::4557757136824812928::1794738628::1794738913::1::::<><><>0<>0<>cefe6561b4c514164b162382789b9f6f<>res://.godot/imported/cola-can.png-2784d80a42d134773a0af08edaae6b8f.ctex::
+game-over.png::CompressedTexture2D::7289964936056839260::1794667483::1794737807::1::::<><><>0<>0<>49febaa0a80ebab988084298c7cc3116<>res://.godot/imported/game-over.png-09e7583b4ba19f7f77b6861cdab622a6.ctex::
+grass.png::CompressedTexture2D::5621547057322546048::1794668338::1794737808::1::::<><><>0<>0<>00fba75bfaa5a5405d085d785690d5ed<>res://.godot/imported/grass.png-af9205a0fdfd145e55fd9de45a00e35a.ctex::
+green-apple.png::CompressedTexture2D::5324402767710316586::1794740784::1794741270::1::::<><><>0<>0<>c37c43737ed97224f99c6f3ee2ef7300<>res://.godot/imported/green-apple.png-274a9ea4005129ae97e2d15f02d59d32.ctex::
+green-can.png::CompressedTexture2D::8980879910111820890::1794739375::1794741270::1::::<><><>0<>0<>edb7631687fcb5acb00a64a5184b9e7c<>res://.godot/imported/green-can.png-be2de25c35e87bb25ca23afd49b40abf.ctex::
+lives-speed-art.png::CompressedTexture2D::2581450498338568158::1794666566::1794737807::1::::<><><>0<>0<>38f2542a873ce44b0d64d8b1918e4a59<>res://.godot/imported/lives-speed-art.png-fda10953a99f89bf5387ac45d5420594.ctex::
+log.png::CompressedTexture2D::1982660029570773180::1794739375::1794741270::1::::<><><>0<>0<>3b0f992e0b7bddc70d4b4a1e169ac9b5<>res://.godot/imported/log.png-d37290f737a1e7b69aef14e4b219a3f6.ctex::
+pond.png::CompressedTexture2D::4472172844848873963::1794664765::1794737809::1::::<><><>0<>0<>eba1181b5b62c32122fa0b51292aa299<>res://.godot/imported/pond.png-91bf85b7a58443cce2497d4ed1d8589d.ctex::
+start-button.png::CompressedTexture2D::7084467827318850769::1794664640::1794737807::1::::<><><>0<>0<>3f6e7e0c1d87d64cbde8d32e49230623<>res://.godot/imported/start-button.png-4113bf2b812cf071b57a0443aa1e86b9.ctex::
+start-title.png::CompressedTexture2D::7716915954269955934::1794664621::1794737807::1::::<><><>0<>0<>8e0787af9e807d56ac87825292bb682f<>res://.godot/imported/start-title.png-c61580a9e0b67bfe1295cca42a14ad01.ctex::
+stats-art.png::CompressedTexture2D::1552544627387369394::1794665592::1794737807::1::::<><><>0<>0<>88cab0864d3792a4bbfb4f858d61c959<>res://.godot/imported/stats-art.png-684996db17e2d97e44bf66e30547ca9e.ctex::
+stats-panel.png::CompressedTexture2D::3504071470316266388::1794666208::1794737807::1::::<><><>0<>0<>8081d2afe3c2d650b3a8532fb19403b5<>res://.godot/imported/stats-panel.png-cb0ee5e01400fb67a3062cdeb91104e7.ctex::
+stump.png::CompressedTexture2D::1014816856681937341::1794664772::1794737809::1::::<><><>0<>0<>e1aa9abf5bb213446c0df8870761b9fa<>res://.godot/imported/stump.png-a08c90714b62841bb09b048f2f259136.ctex::
+trees.png::CompressedTexture2D::7347561520611790244::1794667584::1794737808::1::::<><><>0<>0<>6d110e0932d6cb5638700c331a9faadc<>res://.godot/imported/trees.png-deae96b00bfc06acb1b1b035a1d91d80.ctex::
+try-again.png::CompressedTexture2D::8135607877148450062::1794666354::1794737807::1::::<><><>0<>0<>a5a6192528e6516efc3f60dc3c1e565b<>res://.godot/imported/try-again.png-d80c5f8c60ba2439f1718c11af1cc807.ctex::
+unnamed.png::CompressedTexture2D::4897981801182842230::1794659260::1794737807::1::::<><><>0<>0<>7719f9efa754dd64c2e99a572e06e984<>res://.godot/imported/unnamed.png-98d6024b3d39c6b56d417864dda3e68f.ctex::
+::res://audio/::1794750070
+background.wav::AudioStreamWAV::559612610520567674::1794669537::1794737809::1::::<><><>0<>0<>3818c4c62a1e9ce48bb16923b7ccc713<>res://.godot/imported/background.wav-088efff99ddc32cd91d334eb4eee1b33.sample::
+game-over.wav::AudioStreamWAV::1297415388266239622::1794736884::1794737809::1::::<><><>0<>0<>0e48dc37ef83616b824cf85c154825a1<>res://.godot/imported/game-over.wav-f53eee4ad66b5d2baa3e3b3cd4db7095.sample::
+life-gain.wav::AudioStreamWAV::8843674426277289600::1794739489::1794741270::1::::<><><>0<>0<>164858e96b014140afad31b7bd296720<>res://.godot/imported/life-gain.wav-5cb9218420608efbca8668b5548c958c.sample::
+lose-heart.wav::AudioStreamWAV::6621136204725345107::1794737104::1794737809::1::::<><><>0<>0<>9121122a020e18fa0b206d4f818f5f94<>res://.godot/imported/lose-heart.wav-7e44caa32ddc31fccb2b437b42f6b7eb.sample::
+::res://Bounce-Run/::1794750070
+::res://bouncing  hedgehog/::1794750070
+::res://bouncing hedgehog/::1794750071

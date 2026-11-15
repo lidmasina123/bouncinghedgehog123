@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://qt6v5vi5wn4v"]
+
+[ext_resource type="Script" uid="uid://coipojpjjjm72" path="res://obstacle.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://d07n1rw8qxaac" path="res://art/green-can.png" id="2"]
+
+[sub_resource type="RectangleShape2D" id="Shape"]
+size = Vector2(62, 30)
+
+[node name="GreenCan" type="Area2D" unique_id=1339035817]
+scale = Vector2(1.2, 1.2)
+collision_layer = 0
+collision_mask = 0
+monitoring = false
+monitorable = false
+script = ExtResource("1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=647988169]
+position = Vector2(-38.475, -37.17)
+scale = Vector2(0.09, 0.09)
+texture = ExtResource("2")
+centered = false
+offset = Vector2(0, 100)
+region_enabled = true
+region_rect = Rect2(400, 715, 850, 430)
+region_filter_clip_enabled = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1682705602]
+position = Vector2(0, -9.166666)
+shape = SubResource("Shape")
